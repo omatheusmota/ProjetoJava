@@ -1,4 +1,4 @@
-//Codigo feito em Java, feito por: Hellen Sabo, Matheus Mota, Nicolas Alves, Victor Mariano, Vitor Galdino, Yasmin Nicolau!
+//Codigo feito em Java, feito por: Hellen Sabo, Matheus Mota, Nicolas Alves, Victor Mariano, Vitor Galdino, Yasmin Santos.
 
 package Projeto;
 import java.util.*;
@@ -227,10 +227,10 @@ logs.login(); // Mensagem de bem vindo.
 
 
 System.out.println("Como o do(acao) pode ser útil para você?");
-System.out.println("Use 1 para - Eu gostaria de doar | e 2 para - Eu preciso de ajuda! | 3 para - Conhece alguem que precisa de doação? ");
+System.out.println("Digite 1 para - Eu quero doar! | e 2 para - Eu preciso de ajuda! | 3 para - Eu conheço alguém que precisa de ajuda! ");
 
 botao = input.nextInt();
-//Escolha 1 --> Feito por Nicolas e Matheus Mota.
+//Escolha 1 --> Este trecho foi desenvolvido por Nicolas e Matheus
     if (botao == 1) {
     System.out.println("O que voce quer doar? ");
     System.out.println("1- Roupas | 2- Roupas de cama | 3- Mantimentos | 4- Brinquedos");
@@ -303,7 +303,7 @@ System.out.println("Obrigado por contribuir com o nosso projeto <3");
 		input.nextLine();
 		
 		Thread.sleep(2000);
-		System.out.println("Enviaremos para o endereço: " + bene.getEndereco() + " as doações.");
+		System.out.println("Enviaremos o kit para o endereço: " + bene.getEndereco() + ".");
         Thread.sleep(7000);
         System.out.println("Obrigado por contribuir com o nosso projeto <3");
 
@@ -368,8 +368,8 @@ System.out.println("Obrigado por contribuir com o nosso projeto <3");
 
 
 
-System.out.println("Código feito para o trabalho em java para a Generation Brazil.");
-System.out.println("Feito por: Hellen Sabo, Matheus Mota, Nicolas Alves, Victor Mariano, Vitor Galdino, Yasmin Nicolau.");
+System.out.println("Código feito para o trabalho em java para a Generation Brasil.");
+System.out.println("Feito por: Hellen Sabo, Matheus Mota, Nicolas Alves, Victor Mariano, Vitor Galdino, Yasmin Santos.");
 
     
         input.close();
